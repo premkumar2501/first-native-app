@@ -7,6 +7,10 @@ app.get('/', (req,res) => {
     res.send('hlo bennat raj. ')
 })
 
+app.get('/api/detail',(req,res) => {
+    res.send('hlo prem kumar')
+})
+
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT, (err) => {
